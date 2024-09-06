@@ -8,10 +8,10 @@ Ucok dan Butet kemudian berpikir untuk menginisiasi mimipi besar mereka membangu
 
 Butet kemudian mulai menganalisis dan mendaftarkan properti dari objek buku beserta deskripsinya:
 
-1. ISBN. Kode ISBN-13 yang secara unik mengidentifikasi buku. Misal: 978-0201498400.
+1. ISBN. Kode ISBN-13 yang secara unik mengidentifikasi buku. Misal: 978-0201498400
 2. Judul. Judul dari buku. Misal: Data Structures and Algorithm Analysis in C.
 3. Penulis. Nama dari penulis, jika lebih dari satu dipisahkan dengan tanda koma. Misal: Mark Allen Weiss.
-4. Tahun terbit. Tahun buku diterbitkan. Misal: 1996.
+4. Tahun terbit. Tahun buku diterbitkan. ISBNMisal: 1996.
 5. Penerbit. Nama penerbit. Misal: Pearson;
 6. Format buku elektranik. Terdapat dua format buku yaitu paperback dan ebook (buku elektronik). Paperback adalah buku fisik yang dicetak sementara ebook adalah versi digital.
 

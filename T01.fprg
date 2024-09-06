@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="T01"/>
+        <attribute name="authors" value="Suchia Panjaitan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-06 11:39:31 AM"/>
+        <attribute name="created" value="U3VjaGlhIFBhbmphaXRhbjtMQVBUT1AtN1ZGSUU1MEI7MjAyNC0wOS0wNjsxMDoxNzo1NiBBTTszODU2"/>
+        <attribute name="edited" value="U3VjaGlhIFBhbmphaXRhbjtMQVBUT1AtN1ZGSUU1MEI7MjAyNC0wOS0wNjsxMTozOTozMSBBTTsxOzM5NjI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ISBN" type="String" array="False" size=""/>
+            <declare name="Judul" type="String" array="False" size=""/>
+            <declare name="Penulis" type="String" array="False" size=""/>
+            <declare name="TahunTerbit" type="Integer" array="False" size=""/>
+            <declare name="Penerbit" type="String" array="False" size=""/>
+            <declare name="FormatBuku" type="String" array="False" size=""/>
+            <declare name="Harga" type="Real" array="False" size=""/>
+            <declare name="MinimumMargin" type="Real" array="False" size=""/>
+            <declare name="Stok" type="Integer" array="False" size=""/>
+            <declare name="Rating" type="Real" array="False" size=""/>
+            <input variable="ISBN"/>
+            <input variable="Judul"/>
+            <input variable="Penulis"/>
+            <input variable="TahunTerbit"/>
+            <input variable="Penerbit"/>
+            <input variable="FormatBuku"/>
+            <input variable="Harga"/>
+            <input variable="MinimumMargin"/>
+            <input variable="Stok"/>
+            <input variable="Rating"/>
+            <output expression="ISBN&amp;&quot;|&quot;&amp;Judul&amp;&quot;|&quot;&amp;Penulis&amp;&quot;|&quot;&amp;TahunTerbit&amp;&quot;|&quot;&amp;Penerbit&amp;&quot;|&quot;&amp;FormatBuku&amp;&quot;|&quot;&amp;Harga&amp;&quot;|&quot;&amp;MinimumMargin&amp;&quot;|&quot;&amp;Stok&amp;&quot;|&quot;&amp;Rating" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
